@@ -3,13 +3,6 @@ on:
     branches:
       - main
 
-jobs:
-    runs-on: ubuntu-latest
-    stages:
-      - build
-      - test
-      - deploy
-
     - stage: build
       displayName: 'Build'
       steps:
